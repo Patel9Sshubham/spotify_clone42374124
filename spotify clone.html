@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify-clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify-log1.png" alt="spotify">spotify</li>
+            <li>Home</li>
+            <li>About</li>
+
+        </ul>
+    </nav>
+    <div class="container"> 
+        <div class="songlist">
+            <h1 style="margin-bottom: 40px;">Best of NCS - No Copyright Sounds</h1>
+            <div class="songbanner">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span> Kesariya </span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-solid fa-circle-play"></i> </i></span> </span>
+                </div>
+            </div>
+            
+            <div class="songbanner">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Apna_Bana_Le </span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-solid fa-circle-play"></i> </i></span> </span>
+                </div>
+            </div>
+            <div class="songbanner">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Let me love you </span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-solid fa-circle-play"></i> </i></span> </span>
+                </div>
+            </div>
+
+            <div class="songbanner">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Let me love you </span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-solid fa-circle-play"></i> </i></span> </span>
+                </div>
+            </div>
+            <div class="songbanner">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Let me love you </span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-solid fa-circle-play"></i> </i></span> </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <audio id="audioPlayer" src="Kesariya.mp3"></audio> 
+    <audio id="audioPlayer1" src="Apna_Bana_Le.mp3"></audio> 
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesom icons -->
+            <i class="fas- fa-3x fa-step-backward"></i>
+            <i class="fa-solid fa-circle-play" id="masterplay"></i>
+            <i class="fas- fa-3x fa-step-forward"></i>
+            <!-- <i class="fas- fa-3x fa-step-forward"></i> -->
+        </div>
+        <div class="songinfo">
+            <img src="gif-music.pnj.png" width="32px" alt="" id="gif">let me love you- justin beiber
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7fb98c8f68.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
